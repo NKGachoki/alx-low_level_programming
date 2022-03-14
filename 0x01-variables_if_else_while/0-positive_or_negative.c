@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - assigns a random number to int n eact time it is executed
+ *
+ * return 0 (success)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
