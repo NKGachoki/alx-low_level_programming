@@ -4,7 +4,7 @@
 /**
  * main - assigns random number to int n and prints last digit
  *
- * return (0)
+ * Return: 0
  */
 int main(void)
 {
