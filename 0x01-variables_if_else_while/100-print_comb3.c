@@ -5,7 +5,7 @@
  * without reusing them in the sequence
  * Return: Always 0 (success)
  */
- 
+
 int main(void)
 {
 	int n, m;
@@ -14,12 +14,15 @@ int main(void)
 	{
 		for (m = '0'; m <= '9'; m++)
 		{
-			if ((n != m )&&(n < m))
+			if ((n != m) && (n < m))
 			{
 				putchar(n);
 				putchar(m);
+				if ((n != '8') || (m != '9'))
+				{
 				putchar(',');
 				putchar(' ');
+				}
 			}
 		}
 	}
