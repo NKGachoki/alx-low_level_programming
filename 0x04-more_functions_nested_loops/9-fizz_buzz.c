@@ -3,8 +3,9 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * but for multiples of three prints Fizz instead of the number
- * and for the multiples of five prints Buzz
+ * but for multiples of 3 prints "Fizz" 
+ * for the multiples of 5 prints "Buzz"
+ * and for the multiples of both 3 and 5 prints "FizzBuzz"
  * Return: Always 0 (Success)
  */
 
