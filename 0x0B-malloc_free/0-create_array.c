@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * *create_array - creates an array of chars,
@@ -9,6 +9,7 @@
  *
  * Return: pointer to the array (Success), NULL (Error)
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *p;
