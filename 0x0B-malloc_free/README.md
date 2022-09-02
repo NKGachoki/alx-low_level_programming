@@ -6,3 +6,4 @@ This project involved the creation of specific functions in C with regard to dyn
 4. *2-str_concat.c* contains a function that concatenates two strings and returns a pointer to a newly allocated space in memory containing the contents of the 1st and 2nd strings.
 5. *3-alloc_grid.c* contains a function that creates a two dimensional array of integers.
 6. *4-free_grid.c* contains a function that frees the memory allocated via alloc_grid() function created in file *3-alloc_grid.c*.
+7. *100-argstostr.c* contains a function that concatenates all the arguments of a program.
